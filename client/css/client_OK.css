@@ -1,0 +1,184 @@
+body {
+	background: url("../../images/nathan-dumlao-290152-unsplash.jpg") no-repeat center center fixed;  
+	background-size: cover;
+	font-family: Arial;		  
+	font-size: 17px;	
+	padding: 16px;	
+}
+
+.logo {
+	position: absolute;
+	top: 11px;
+	left: 45%;
+	z-index: 3;
+}
+
+.logo img {
+	height: 90px;
+	width: 90px;	
+}
+
+ul {
+	opacity: 0.5;
+	list-style-type: none;	
+	margin: 0;	
+	padding: 0;	
+	overflow: hidden;	
+	background-color: #2f2d24;	
+}
+
+li {
+	float: left;	
+}
+
+li a {
+	display: block;	
+	color: white;	
+	text-align: center;	
+	padding: 14px 16px;	
+	text-decoration: none;	
+}
+
+li a:hover {
+	background-color: #111;	
+}
+
+* {
+	box-sizing: border-box;	
+}
+
+.col-25 {
+	-ms-flex: 25%; /* IE10 */	
+	flex: 25%;	
+	width: 100%;		
+}
+
+.col-25 {
+	padding: 0 16px;	
+}
+		
+.container {
+	width: 50%;
+	background-color: #f2f2f2;	
+	padding: 5px 20px 15px 20px;	
+	border: 1px solid lightgrey;	
+	border-radius: 3px;	
+	margin-left: 25%;
+	margin-bottom: 80px; 
+}
+
+.container2 {
+	width: 50%;
+	background-color: #f2f2f2;	
+	padding: 5px 20px 15px 20px;	
+	border: 1px solid lightgrey;	 
+	border-radius: 3px;	
+	margin-top: 80px;
+	margin-bottom: 50px; 
+	margin-left: 25%;
+}
+
+.icon-container {
+	margin-bottom: 20px;	
+	padding: 7px 0;	
+	font-size: 24px;	
+}
+
+a {
+	color: #2196F3;	
+}
+
+hr {
+	border: 1px solid lightgrey;	
+}
+
+span.price {
+	float: right;	
+	color: grey;	
+}
+
+.color {
+	color: #006666;	
+}
+
+.color2 {
+	color: #f2f2f2;	
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	padding: 7px;
+	border-bottom: 2px solid lightgrey;		
+}
+
+.button, .button_red {
+	width: 15%;
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	border-radius: 15px;
+	position:relative; 
+	bottom: 10%;
+	right: 42%;
+	left: 42%;
+}
+
+.button {
+	opacity: 0.9;
+	color: #fff;
+	background-color: #333;
+	border: 2px solid #f2f2f2;
+}
+
+.button_red {
+	opacity: 0.8;
+	color: #f2f2f2;
+	background-color: #8b2422;
+	border: 2px solid #f2f2f2;
+}	
+	
+.button:hover, .button_red:hover {
+	opacity: 1;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+
+@media (max-width: 800px) {	
+	body {
+		background: url("../../images/coffee_main_0.jpg") no-repeat center center fixed; 
+		background-size: cover;
+	}
+	ul {
+		background-color: #392324;
+	}
+	.container, .container2 {	
+		width: 100%;
+		margin-left: 0;
+	}
+	.container2 {
+		margin-top: 50px;
+	}
+	.button, .button_red {
+		width: 50%;
+		right: 25%;
+		left: 25%;
+	}
+	.container {
+		margin-bottom: 50px; 
+	}
+	.logo {
+		left: 38%;
+	}
+	.logo img {
+		margin-top: 4px;
+		height: 80px;
+		width: 80px;	
+	}	
+}

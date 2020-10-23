@@ -1,0 +1,152 @@
+body{ 
+	background: url("../../images/nathan-dumlao-298337-unsplash.jpg") no-repeat center center fixed; 	
+	font: 17px sans-serif; 	
+	color: white;	
+	text-align: center; 	
+	background-size:cover;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 16px;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 45%;
+	z-index: 3;
+}
+
+.logo img {
+	height: 90px;
+	width: 90px;	
+}
+
+.page-header {
+	font-size: 32px; 
+}
+
+ul {
+	opacity: 0.4;	
+	list-style-type: none;	
+	margin: 0;	
+	padding: 0;	
+	overflow: hidden;	
+	background-color: #333;	
+}
+
+li {
+	float: left;	
+}
+
+li a {
+	display: block;	
+	color: white;	
+	text-align: center;	
+	padding: 14px 16px;	
+	text-decoration: none;	
+}
+
+li a:hover {
+	background-color: #111;	
+}
+
+* {
+	box-sizing: border-box;	
+}
+
+.col-25 {
+	-ms-flex: 25%; /* IE10 */	
+	flex: 25%;	
+	width: 50%;	
+	border: 1px solid white;	
+}
+
+.col-25 {
+	padding: 0 16px;	
+}
+
+.container {
+	background-color: #f2f2f2;	
+	padding: 5px 20px 15px 20px;	
+	border: 1px solid lightgrey;	
+	border-radius: 3px;	
+}
+
+.icon-container {
+	margin-bottom: 20px;	
+	padding: 7px 0;	
+	font-size: 24px;	
+}
+
+a {
+	color: #2196F3;	
+}
+
+hr {
+	border: 1px solid lightgrey;	
+}
+
+
+
+span.price {
+	float: right;	
+	color: grey;	
+}
+		
+.button {
+	background-color: #c4b3a2;
+	border: 2px solid white;  
+	border-radius: 15px;	
+	color: white;	
+	padding: 15px 15px 15px 15px;
+	text-align: center;	
+	font-size: 16px;	
+	position: absolute;
+	bottom: 45%;
+	left: 40%;
+	margin: 4px 2px;	
+	opacity: 0.9;
+	transition: 0.3s;	
+	display: inline-block;	
+	text-decoration: none;	
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 1
+}
+
+@media (max-width: 800px) {
+	.row {	
+		flex-direction: column-reverse;		
+	}	
+	.col-25 {	
+		margin-bottom: 20px;		
+	}
+	.page-header {
+		font-size: 20px; 	
+	}
+	html, body {
+    	height: 100%; 
+	}
+	.button {
+		width: 50%;
+		padding:10px 10px;  
+		outline: none;
+		border: 1px solid white;  
+		bottom: 10%;
+		right: 25%;
+		left: 25%;
+		background-color: #333;
+		opacity: 0.5;
+	}
+	.logo {
+		left: 38%;
+	}
+	.logo img {
+		margin-top: 4px;
+		height: 80px;
+		width: 80px;	
+	}
+}

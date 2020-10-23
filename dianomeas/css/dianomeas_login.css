@@ -1,0 +1,72 @@
+body{ 
+	font: 17px Arial; 
+	background: url("../../images/mike-kenneally-46284-unsplash.jpg") no-repeat center center fixed; 
+	text-align: center;
+	background-size:cover;
+	padding: 8px;
+}
+
+html, body {
+	height: 100%;
+}
+
+.logo {
+	position: absolute;
+	left: 38%;
+	z-index: 3;
+	top: 100px;
+}
+
+.logo img {
+	margin-top: 4px;
+	height: 80px;
+	width: 80px;	
+}
+
+.wrapper{ 
+	width: 85%;
+	padding: 20px; 
+	background-color: white; 
+	border-radius: 15px;
+    padding-bottom: 10px;
+	text-align: left;
+	margin-top: 140px;
+	margin-right: 7%;
+	margin-left: 7%;
+	margin-bottom: 50px;	
+}
+
+a {
+	color: #b37373;
+}
+
+#link:hover {
+	color: #822727;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #822727;
+    border-color: #822727;
+}
+
+
+.btn:hover {
+	background-color: #822727;
+	border-color: #822727;
+}
+
+.form-control:focus {
+	border-color: #822727;
+    box-shadow: none;
+}
+
+
+#butt:active {
+	background-color: #822727;
+	border-color: #822727;
+}

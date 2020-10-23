@@ -1,0 +1,92 @@
+body{ 
+	font: 14px sans-serif; 
+	background: url("../../images/janko-ferlic-435794-unsplash.jpg") no-repeat center center fixed; 
+	text-align: center;
+	background-size:cover;
+	padding: 8px;
+}
+
+.logo {
+	position: absolute;
+	left: 47%;
+	z-index: 3;
+	top: 140px;
+}
+
+.logo img {
+	height: 90px;
+	width: 90px;	
+}
+
+.wrapper{ 
+	width: 350px; 
+	padding: 20px; 
+	background-color: white; 
+	border-radius: 15px;
+    padding-bottom: 10px;
+	text-align: left;
+	margin-top: 180px;
+}
+
+a {
+	color: #b37373;
+}
+
+#link:hover {
+	color: #822727;
+}
+
+body {
+	font-family: Arial;
+	font-size: 17px;
+	padding: 8px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #822727;
+    border-color: #822727;
+}
+
+
+.btn:hover {
+	background-color: #822727;
+	border-color: #822727;
+}
+
+.form-control:focus {
+	border-color: #822727;
+    box-shadow: none;
+}
+
+
+#butt:active {
+	background-color: #822727;
+	border-color: #822727;
+}
+
+@media (max-width: 800px) {	
+	html, body {
+		height: 100%;
+	}
+	.logo {
+		left: 38%;
+		top: 70px;
+	}
+	.logo img {
+		margin-top: 4px;
+		height: 80px;
+		width: 80px;	
+	}
+	.wrapper{ 
+		width: 85%;
+		margin-top: 110px;
+		margin-right: 7%;
+		margin-left: 7%;
+		margin-bottom: 50px;
+	}
+}

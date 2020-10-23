@@ -1,0 +1,46 @@
+.wrapper{ 
+	width: 30%;
+	margin-top: 110px;
+}
+
+.btn {
+	width: 125px;	
+}
+
+.logo {
+	position: absolute;
+	left: 47%;
+	z-index: 3;
+	top: 70px;
+}
+
+#reset {
+	background-color: #333;
+	color: white;
+	border-color: #333;
+}
+
+@media (max-width: 800px) {	
+	html, body {
+		height: 100%;
+	}
+	.logo {
+		left: 38%;
+		top: 70px;
+	}
+	.logo img {
+		margin-top: 4px;
+		height: 80px;
+		width: 80px;	
+	}
+	.wrapper{ 
+		width: 85%;
+		margin-top: 110px;
+		margin-right: 7%;
+		margin-left: 7%;
+		margin-bottom: 50px;
+	}
+	#reset {
+		margin-bottom: 15px;
+	}
+}

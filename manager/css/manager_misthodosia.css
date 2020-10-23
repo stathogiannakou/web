@@ -1,0 +1,83 @@
+body{ 
+	font: 14px Arial; 
+	background: url("../../images/maria-fernanda-gonzalez-140902-unsplash.jpg") no-repeat center center fixed; 
+	text-align: center;
+	background-size:cover;
+	padding: 16px;
+}
+
+.logo {
+	position: absolute;
+	left: 47%;
+	z-index: 3;
+	top: 0;
+}
+
+.logo img {
+	height: 90px;
+	width: 90px;	
+}
+
+.wrapper{ 
+	width: 350px; 
+	padding: 20px; 
+	background-color: white; 
+	border-radius: 15px;
+	padding-bottom: 10px;
+}
+			
+ul {
+	opacity: 0.7;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #311915;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+* {
+	box-sizing: border-box;
+}
+		
+.form-control {
+	text-align: center;
+	text-align: -moz-center;
+	text-align: -webkit-center;
+}
+
+.btn {
+	margin-top: 20px;
+	background-color: #311915;
+	border-color: #311915;
+}
+
+.btn:hover {
+	background-color: #311915;
+	border-color: #311915;
+}
+
+.form-control:focus {
+	border-color: #b33c00;
+	box-shadow: none;
+}
+
+#butt:active {
+	background-color: #311915;
+	border-color: #311915;
+}
